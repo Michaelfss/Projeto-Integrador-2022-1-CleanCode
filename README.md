@@ -15,10 +15,10 @@ Grupo Clean Code Fatec
 
 + [Sobre](#Sobre)
 + [Tabela de conteudo](#tabela-de-conteudo)
-    + [Pre Requisito](#Pre-requisitos)
+    + [Pre Requisito](#pre-requisitos)
 + [Tecnologias](#tecnologias)
     
-#Sobre
+# Sobre
 <p>A</>
 <p>A</>
 <p>A</>
@@ -26,7 +26,7 @@ Grupo Clean Code Fatec
 <p>A</>
 <p>A</>
 
-#Pre-requisitos
+# pre-requisitos
 <p>A</>
 <p>A</>
 <p>A</>
