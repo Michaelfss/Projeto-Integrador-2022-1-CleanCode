@@ -26,7 +26,7 @@ Grupo Clean Code Fatec
 <p>A</>
 <p>A</>
 
-#Pre-resquisitos
+#Pre-requisitos
 <p>A</>
 <p>A</>
 <p>A</>
