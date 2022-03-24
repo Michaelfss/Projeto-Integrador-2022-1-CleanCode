@@ -34,5 +34,5 @@ Grupo Clean Code Fatec
 <p>A</>
 <p>A</>
 
-#tecnologias
+# tecnologias
   
