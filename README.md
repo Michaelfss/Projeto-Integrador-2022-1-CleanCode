@@ -1,7 +1,7 @@
 
-#colocar a logo depois o titulo abaixo#
-
-
+ <p align="center">
+![logocleancode](https://user-images.githubusercontent.com/90359981/160683241-abb89638-7e50-4e79-ad53-32c9b94cf682.png)
+ </p>
 
   
  <p align="center">
