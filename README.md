@@ -1,8 +1,7 @@
-
- <p align="center">
-![logocleancode](https://user-images.githubusercontent.com/90359981/160683241-abb89638-7e50-4e79-ad53-32c9b94cf682.png)
- </p>
-
+   <p align="center">
+   <img width="460" height="250" src="https://user-images.githubusercontent.com/90359981/160683241-abb89638-7e50-4e79-ad53-32c9b94cf682.png")
+   </p>
+  
   
  <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
