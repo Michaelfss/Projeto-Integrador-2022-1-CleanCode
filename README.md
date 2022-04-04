@@ -17,7 +17,7 @@
     * [Pre Requisito](#pre-requisitos)
     * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
     * [Tecnologias](#tecnologias)
-* [Pessoas Contribuidoras](#autor)
+* [Autor](#autor)
     
 # Sobre
 <p> Esse projeto tem como obrjetivo facilitar a entrada de dados e configurar a entrada no sistema da empresa DOM ROCK </p>
