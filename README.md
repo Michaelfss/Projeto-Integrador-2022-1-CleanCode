@@ -17,7 +17,7 @@ Grupo Clean Code Fatec
 
 
 
-<p align ="center"> Esse projeto....</p>
+<p align ="center"> Esse projeto tem como obrjetivo facilitar a entrada de dados e configurar a entrada no sistema da empresa DOM ROCK </p>
 
 * [Sobre](#Sobre)
 * [Tabela de conteudo](#tabela-de-conteudo)
