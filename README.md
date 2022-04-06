@@ -25,10 +25,10 @@
 
 
 # pre-requisitos
-<p>A</>
-<p>A</>
-<p>A</>
-<p>A</>
+<p>Eclispse</>
+<p>GitHub</>
+<p>Trelo</>
+<p>Java</>
 <p>A</>
 <p>A</>
 
