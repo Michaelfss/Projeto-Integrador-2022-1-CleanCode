@@ -25,21 +25,17 @@
 
 
 # pre-requisitos
-<p>Eclispse</>
-<p>GitHub</>
-<p>Trelo</>
-<p>Java</>
+
 <p>A</>
 <p>A</>
 
 # tecnologias
 
-<p>A</>
-<p>A</>
-<p>A</>
-<p>A</>
-<p>A</>
-<p>A</>
+<p>Eclispse</>
+<p>GitHub</>
+<p>Trello</>
+<p>Java</>
+
 
 # autor
 
