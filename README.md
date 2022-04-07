@@ -17,7 +17,7 @@
 * [Sprint 1](#Sprint 1)
 * [Sprint 2](#Sprint 2)
 * [Sprint 3](#Sprint 3)
-* [Tecnologias](#tecnologias)
+* [Tecnologias](#Tecnologias)
 * [Autor](#autor)
 
 
@@ -31,7 +31,7 @@
 
 # Sprint 3
 
-# tecnologias
+# Tecnologias
 
 <p>Eclispse</>
 <p>GitHub</>
