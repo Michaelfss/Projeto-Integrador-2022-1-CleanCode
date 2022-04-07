@@ -14,9 +14,9 @@
 
 * [Sobre](#Sobre)
 * [Tabela de conteudo](#tabela-de-conteudo)
-* [Sprint 1](#Sprint 1)
-* [Sprint 2](#Sprint 2)
-* [Sprint 3](#Sprint 3)
+ * [Sprint 1](#Sprint 1)
+ * [Sprint 2](#Sprint 2)
+ * [Sprint 3](#Sprint 3)
 * [Tecnologias](#Tecnologias)
 * [Autor](#autor)
 
