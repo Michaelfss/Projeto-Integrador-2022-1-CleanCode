@@ -41,7 +41,7 @@
 |:------------------|:-------|:-------|:-------|---------|
 |Crucial            |Wireframe| | | |
 |Importante|Criação da pagina no GitHub| | ||
-|Relevante|| |||
+|Relevante| Integração com banco de dados| |||
 
 	
 
