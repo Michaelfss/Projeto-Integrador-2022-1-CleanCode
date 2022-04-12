@@ -31,6 +31,16 @@
 
 # Sprint 3
 
+
+|Nível de impotância|Sprint 1|Sprint 2|Sprint 3||
+|:------------------|:-------|:-------|:-------|---------|
+|Crucial            |Wireframe| | | |
+|Importante|Criação da pagina no GitHub| | ||
+|Relevante|| |||
+
+	
+
+
 # 🛠️Tecnologias
 
 <p>Eclispse</>
@@ -39,6 +49,9 @@
 <p>Trello</>
 <p>Java</>
 <p>Scene Builder</>
+
+
+
 
 # autor
 
