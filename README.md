@@ -34,10 +34,10 @@
 # Tecnologias
 
 <p>Eclispse</>
+<p>VsCode</>
 <p>GitHub</>
 <p>Trello</>
 <p>Java</>
-
 
 # autor
 
