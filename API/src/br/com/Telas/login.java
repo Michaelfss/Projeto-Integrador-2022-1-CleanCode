@@ -6,17 +6,23 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import br.com.API.dao.LoginDAO;
+
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JRadioButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JPasswordField;
 
 public class login extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textUsuario;
-	private JTextField textSenha;
+	private JTextField Usuario;
+	private JPasswordField Senha;
 
 	/**
 	 * Launch the application.
@@ -51,19 +57,38 @@ public class login extends JFrame {
 		lblNewLabel.setBounds(196, 40, 55, 29);
 		contentPane.add(lblNewLabel);
 		
-		textUsuario = new JTextField();
-		textUsuario.setBounds(146, 80, 154, 20);
-		contentPane.add(textUsuario);
-		textUsuario.setColumns(10);
+		Usuario = new JTextField();
+		Usuario.setBounds(146, 80, 154, 20);
+		contentPane.add(Usuario);
+		Usuario.setColumns(10);
 		
-		textSenha = new JTextField();
-		textSenha.setColumns(10);
-		textSenha.setBounds(146, 111, 154, 20);
-		contentPane.add(textSenha);
+		JButton btnEntrar = new JButton("Entrar");
+		btnEntrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			contentPane.setLayout(null);Inicio frame = new Inicio(); frame. setVisible(true);
+				
+				
+				
+				
+				
+
+								
+			}
+		});
+		btnEntrar.setBounds(234, 204, 89, 23);
+		contentPane.add(btnEntrar);	
 		
-		JButton btnNewButton = new JButton("Entrar");
-		btnNewButton.setBounds(234, 204, 89, 23);
-		contentPane.add(btnNewButton);
+		
+		
+			
+			
+			
+		
+	
+	
+		
+		
 		
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("New radio button");
 		rdbtnNewRadioButton.setBounds(56, 169, 109, 23);
@@ -78,6 +103,10 @@ public class login extends JFrame {
 		contentPane.add(rdbtnNewRadioButton_2);
 		
 		JButton btn = new JButton("Cadastrar");
+		btn.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btn.setBounds(122, 204, 89, 23);
 		contentPane.add(btn);
 		
@@ -88,5 +117,10 @@ public class login extends JFrame {
 		JLabel lblNewLabel_2 = new JLabel("Senha");
 		lblNewLabel_2.setBounds(90, 114, 46, 14);
 		contentPane.add(lblNewLabel_2);
+		
+		Senha = new JPasswordField();
+		Senha.setBounds(146, 111, 154, 20);
+		contentPane.add(Senha);
 	}
+
 }

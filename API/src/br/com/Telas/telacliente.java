@@ -4,6 +4,8 @@ package br.com.Telas;
 import java.awt.BorderLayout;
 import javax.swing.text.MaskFormatter;
 
+import br.com.API.dao.ClienteCadastroDAO;
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -42,7 +44,6 @@ public class  telacliente extends JFrame {
 	private JTextField Endereco;
 	private JTextField Numero;
 	private JTextField CEP;
-	private JTable table;
 	private JTextField CNPJ;
 	
 	
@@ -70,7 +71,7 @@ public class  telacliente extends JFrame {
 	public telacliente() {
 		setTitle("Cadastro de Clientes");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 582, 449);
+		setBounds(100, 100, 544, 301);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -86,19 +87,19 @@ public class  telacliente extends JFrame {
 					
 				
 
-				contentPane.setLayout(null);tela2 frame = new tela2(); frame. setVisible(true);
+				contentPane.setLayout(null);Upload frame = new Upload(); frame. setVisible(true);
 				
 			}
 		});
-		btnavancar.setBounds(477, 359, 89, 23);
+		btnavancar.setBounds(435, 208, 89, 23);
 		contentPane.add(btnavancar);
 		
 		JCheckBox chckbxNao = new JCheckBox("N\u00E3o");
-		chckbxNao.setBounds(90, 359, 45, 23);
+		chckbxNao.setBounds(62, 208, 45, 23);
 		contentPane.add(chckbxNao);
 		
 		JCheckBox chckbxSim = new JCheckBox("Sim");
-		chckbxSim.setBounds(23, 359, 45, 23);
+		chckbxSim.setBounds(22, 208, 45, 23);
 		contentPane.add(chckbxSim);
 		
 		RazaoSocial = new JTextField();
@@ -134,7 +135,7 @@ public class  telacliente extends JFrame {
 		contentPane.add(lblNumero);
 		
 		JLabel lblChecklist = new JLabel("Check List");
-		lblChecklist.setBounds(47, 332, 70, 14);
+		lblChecklist.setBounds(37, 187, 70, 14);
 		contentPane.add(lblChecklist);
 		
 		CEP = new JTextField();
@@ -149,24 +150,30 @@ public class  telacliente extends JFrame {
 		JButton btnCadastrar = new JButton("Cadastrar");
 		btnCadastrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
+				
+				ClienteCadastroDAO clientecadastroDao = new ClienteCadastroDAO();
 				ClienteCadastro c1 = new ClienteCadastro(RazaoSocial.getText(), CNPJ.getText(), Endereco.getText(), Numero.getText(),CEP.getText());
 				
-				System.out.println("Cliente: " + c1.getRazaoSocial() + "\n" + "CNPJ: " + c1.getCnjp() + "\n" + "Endereço: " + 
-				c1.getEndereco() + "\n" + "Número: " + c1.getNumero()+ "\n" +"CEP:"+ c1.getCEP());
-				
-			}
+				 RazaoSocial.setText("");
+				 CNPJ.setText("");
+				 Endereco.setText("");
+				 Numero.setText("");
+				 CEP.setText("");
+		
+		        try {
+					clientecadastroDao.save(c1);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+		        
+			} 
+			
+			
+			
 		});
-		btnCadastrar.setBounds(188, 359, 89, 23);
+		btnCadastrar.setBounds(245, 208, 89, 23);
 		contentPane.add(btnCadastrar);
-		
-		JButton btnExcluir = new JButton("Excluir");
-		btnExcluir.setBounds(287, 359, 89, 23);
-		contentPane.add(btnExcluir);
-		
-		table = new JTable();
-		table.setBounds(23, 179, 523, 114);
-		contentPane.add(table);
 		
 		CNPJ = new JTextField();
 		CNPJ.addKeyListener(new KeyAdapter() {
@@ -179,7 +186,7 @@ public class  telacliente extends JFrame {
 		CNPJ.setColumns(10);
 		
 		JButton btnLLimpar = new JButton("Limpar");
-		btnLLimpar.setBounds(386, 359, 89, 23);
+		btnLLimpar.setBounds(344, 208, 89, 23);
 		contentPane.add(btnLLimpar);
 	}
 }

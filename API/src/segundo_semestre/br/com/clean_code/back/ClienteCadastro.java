@@ -16,6 +16,11 @@ public class ClienteCadastro {
 		this.CEP= CEP;
 	}
 	
+	public ClienteCadastro(){
+		
+	}
+	
+	
 	public String getRazaoSocial() {
 		return RazaoSocial;
 	}
