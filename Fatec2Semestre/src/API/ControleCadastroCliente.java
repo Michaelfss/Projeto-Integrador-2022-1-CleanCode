@@ -11,13 +11,16 @@ public class ControleCadastroCliente {
     private Button botaoConfirmar;
 
     @FXML
+    private Button botaoProximaPagina;
+
+    @FXML
+    private TextField campoCEP;
+
+    @FXML
     private TextField campoCNPJ;
 
     @FXML
     private TextField campoEndereco;
-
-    @FXML
-    private TextField campoNome;
 
     @FXML
     private TextField campoNumero;
@@ -27,13 +30,14 @@ public class ControleCadastroCliente {
 
     @FXML
     void cadastrarCliente(ActionEvent event) {
-        String nome = campoNome.getText();
         String razaoSocial = campoRazaoSocial.getText();
         String cnpj = campoCNPJ.getText();
+        String CEP = campoCEP.getText();
         String endereco = campoEndereco.getText();
         String numero = campoNumero.getText();
+        
 
-        System.out.format("Nome: %s \nRazão Social: %s \nCNPJ: %s \nEndereço: %s, %s",
-        nome, razaoSocial, cnpj, endereco, numero);
+        System.out.format("Razão Social: %s \nCNPJ: %s, \nCEP: %s \nEndereço: %s, %s",
+       razaoSocial, cnpj, CEP, endereco, numero);
     }
 }

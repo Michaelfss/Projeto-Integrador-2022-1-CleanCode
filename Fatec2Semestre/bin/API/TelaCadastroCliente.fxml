@@ -41,25 +41,25 @@
 
 <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.ControleCadastroCliente">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #141e28;" VBox.vgrow="ALWAYS">
          <children>
-            <Label layoutX="187.0" layoutY="23.0" text="Cadastro de Cliente">
+            <Label layoutX="182.0" layoutY="29.0" text="Cadastro de Cliente" textFill="#59b3e4">
                <font>
                   <Font size="32.0" />
                </font>
             </Label>
-            <Label layoutX="187.0" layoutY="89.0" text="Nome" />
-            <TextField fx:id="campoNome" layoutX="246.0" layoutY="85.0" text="Nome" />
-            <Label layoutX="171.0" layoutY="127.0" text="Razão Social" />
-            <TextField fx:id="campoRazaoSocial" layoutX="246.0" layoutY="123.0" text="Razão Social" />
-            <Label layoutX="190.0" layoutY="171.0" text="CNPJ" />
-            <TextField fx:id="campoCNPJ" layoutX="246.0" layoutY="167.0" text="CNPJ" />
-            <Label layoutX="179.0" layoutY="215.0" text="Endereço" />
-            <TextField fx:id="campoEndereco" layoutX="246.0" layoutY="211.0" text="Endereço" />
-            <Label layoutX="182.0" layoutY="255.0" text="Número" />
-            <TextField fx:id="campoNumero" layoutX="246.0" layoutY="251.0" text="Número" />
-            <Button fx:id="botaoConfirmar" layoutX="291.0" layoutY="311.0" mnemonicParsing="false" onAction="#cadastrarCliente" text="Confirmar" />
-            <Button layoutX="528.0" layoutY="354.0" mnemonicParsing="false" text="Proxima Pagina" />
+            <Label layoutX="208.0" layoutY="111.0" text="Razão Social" textFill="WHITE" />
+            <TextField fx:id="campoRazaoSocial" layoutX="282.0" layoutY="106.0" style="-fx-background-color: #232d3c; -fx-border-color: #ffffff;" text="Razão Social" />
+            <Label layoutX="227.0" layoutY="150.0" text="CNPJ" textFill="WHITE" />
+            <TextField fx:id="campoCNPJ" layoutX="282.0" layoutY="145.0" style="-fx-background-color: #232d3c; -fx-border-color: #ffffff;" text="CNPJ" />
+            <Label layoutX="231.0" layoutY="192.0" text="CEP" textFill="WHITE" />
+            <TextField fx:id="campoCEP" layoutX="282.0" layoutY="187.0" style="-fx-background-color: #232d3c; -fx-border-color: #ffffff;" text="CEP" />
+            <Label layoutX="216.0" layoutY="233.0" text="Endereço" textFill="WHITE" />
+            <TextField fx:id="campoEndereco" layoutX="282.0" layoutY="228.0" style="-fx-background-color: #232d3c; -fx-border-color: #ffffff;" text="Endereço" />
+            <Label layoutX="219.0" layoutY="274.0" text="Número" textFill="WHITE" />
+            <TextField fx:id="campoNumero" layoutX="282.0" layoutY="269.0" style="-fx-background-color: #232d3c; -fx-border-color: #ffffff;" text="Número" />
+            <Button fx:id="botaoConfirmar" layoutX="286.0" layoutY="329.0" mnemonicParsing="false" onAction="#cadastrarCliente" style="-fx-background-color: #59b3e4;" text="Confirmar" textFill="WHITE" />
+            <Button fx:id="botaoProximaPagina" layoutX="528.0" layoutY="354.0" mnemonicParsing="false" style="-fx-background-color: #59b3e4;" text="Proxima Pagina" textFill="WHITE" />
          </children>
     </AnchorPane>
   </children>

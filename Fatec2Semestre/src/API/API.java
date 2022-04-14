@@ -10,7 +10,7 @@ public class API extends Application{
     public static void main(String[] args) throws Exception {
         launch(args);
     }
-
+    
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("TelaCadastroCliente.fxml"));

@@ -1,27 +1,20 @@
 package API;
 
 public class CadastroCliente {
-	protected String nome;
-    protected String razaoSocial;
-	protected String cnjp;
-	protected String endereco;
-	protected String numero;
+    private String razaoSocial;
+	private String cnjp;
+	private String cep;
+	private String endereco;
+	private String numero;
 	
-	public CadastroCliente(String nome, String razaoSocial, String cnpj, String endereco, String numero) {
-		this.nome = nome;
+	public CadastroCliente(String razaoSocial, String cnpj, String cep, String endereco, String numero) {
 		this.razaoSocial = razaoSocial;
 		this.cnjp = cnpj;
+		this.cep = cep;
 		this.endereco = endereco;
 		this.numero = numero;
 	}
-	
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-		
+
 	public String getRazaoSocial() {
 		return razaoSocial;
 	}
@@ -34,6 +27,13 @@ public class CadastroCliente {
 	}
 	public void setCnjp(String cnjp) {
 		this.cnjp = cnjp;
+	}
+
+	public String getCep() {
+		return cep;
+	}
+	public void setCep(String cep) {
+		this.cep = cep;
 	}
 
 	public String getEndereco() {
