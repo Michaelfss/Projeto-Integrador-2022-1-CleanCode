@@ -56,6 +56,7 @@ https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Docu
 <p>Eclispse</>
 <p>VSCode</>
 <p>GitHub</>
+<p>MySQL</>
 <p>Trello</>
 <p>Java</>
 <p>Scene Builder</>
