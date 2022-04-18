@@ -69,8 +69,9 @@ Cadastro de módulos/soluções Dom Rock
 
 
 
+
 # autor
 
                                                                           
-| [<img src="" width=115><br><sub>Michael Felipe<br>(Scrum Master)</sub>](https://github.com/Michaelfss)  | [<img src="https://user-images.githubusercontent.com/90359981/161455893-67940531-5d41-4ec2-81af-16be732d3e50.jpeg" width=115><br><sub>Bianca Tuchtler<br>(P.O)</sub>](https://github.com/biancatuchtler) |  [<img src="https://user-images.githubusercontent.com/90359981/161459311-b8526557-1ce4-4c58-b1ac-1f2d310c9886.jpeg" width=110 height="115"><br><sub>Augusto<br>(DEV)</sub>](https://github.com/MrZeroLeft) |  [<img src="" width=115><br><sub>Wesley Ferreira<br>(DEV)</sub>](https://github.com/weeesferreira) |
+| [<img src="" width=115><br><sub>Michael Felipe<br>(Scrum Master)</sub>](https://github.com/Michaelfss)  | [<img src="https://user-images.githubusercontent.com/90359981/161455893-67940531-5d41-4ec2-81af-16be732d3e50.jpeg" width=115><br><sub>Bianca Tuchtler<br>(P.O)</sub>](https://github.com/biancatuchtler) |  [<img src="https://user-images.githubusercontent.com/90359981/161459311-b8526557-1ce4-4c58-b1ac-1f2d310c9886.jpeg" width=110 height="115"><br><sub>Augusto<br>(DEV)</sub>](https://github.com/MrZeroLeft) |  [<img src="https://user-images.githubusercontent.com/90359981/163746527-1bbba29c-196b-4400-812f-6966d351be57.jpeg" width=100><br><sub>Wesley Ferreira<br>(DEV)</sub>](https://github.com/weeesferreira) |
 | :---: | :---: | :---: | :---: |
