@@ -24,7 +24,7 @@
 
 
 # Sobre
-<p> Esse projeto tem como obrjetivo facilitar a entrada de dados e configurar a entrada no sistema da empresa DOM ROCK </p>
+<p> Esse projeto escolar que tem como objetivo facilitar a entrada de dados e configurar a entrada no sistema da empresa DOM ROCK </p>
 
 
 # Sprint 1
