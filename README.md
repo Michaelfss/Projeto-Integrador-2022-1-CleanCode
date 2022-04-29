@@ -14,6 +14,7 @@
    <h1 align="center"> Fatec Profº Jessen Vidal, SJC - Grupo_04 </h1>
  
 # Menu
+
 * [Sobre](#Sobre)
 * [Tabela de conteudo](#tabela-de-conteudo)
 * [Sprint 1](#Sprint-1)
@@ -27,21 +28,36 @@
 <p> Esse projeto escolar que tem como objetivo facilitar a entrada de dados e configurar a entrada no sistema da empresa DOM ROCK </p>
 
 
-# Sprint 1
-# Cards
-![Card1](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/Card1.png)
-![Card2](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/Card2.png)
-# Documentação
-https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
+# Cronograma
 
-# Sprint 2
-Terminar autenticação de usuario
-Terminar consulta
-Implementar anexação de arquivos
-Implementar criação de PDFs com informações
-Cadastro de módulos/soluções Dom Rock
 
-# Sprint 3
+# Propostas
+
+## Sprint 1
+Tela de cadastro de clientes (Escopo)
+
+## Sprint 2
+Aprimorar a tela de cadastro de cliente de acordo com a validação
+Etapa Bronze
+Banco de dados
+Ligação do escopo e etapa bronze com banco
+
+## Sprint 3
+
+
+# Sprints
+
+## Sprint 1
+
+## Burndown
+
+## Sprint 2
+
+## Burndown
+
+## Sprint 3
+
+## Burndown
 
 
 <h1 align="Left">Backlog do projeto</h1>
@@ -51,9 +67,7 @@ Cadastro de módulos/soluções Dom Rock
 |:------------------|:-------|:-------|:-------|---------|
 |Crucial            |Wireframe| | | |
 |Importante|Criação da pagina no GitHub| | ||
-|Relevante| Integração com banco de dados| |||
-
-	
+|Relevante| Integração com banco de dados| |||	
 
 
 # 🛠️Tecnologias
@@ -67,12 +81,11 @@ Cadastro de módulos/soluções Dom Rock
 <p>Scene Builder</>
 
 
-
-
+# Documentação
+https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
 
 
 # autor
-
-                                                                          
+                                                                      
 | [<img src="" width=115><br><sub>Michael Felipe<br>(Scrum Master)</sub>](https://github.com/Michaelfss)  | [<img src="https://user-images.githubusercontent.com/90359981/161455893-67940531-5d41-4ec2-81af-16be732d3e50.jpeg" width=115><br><sub>Bianca Tuchtler<br>(DEV)</sub>](https://github.com/biancatuchtler) |  [<img src="https://user-images.githubusercontent.com/90359981/161459311-b8526557-1ce4-4c58-b1ac-1f2d310c9886.jpeg" width=110 height="115"><br><sub>Augusto<br>(P.O)</sub>](https://github.com/MrZeroLeft) |  [<img src="https://user-images.githubusercontent.com/90359981/163747092-85a87b26-a1b5-4809-84c2-d3c09069e3d3.jpeg" width=90><br><sub>Wesley Ferreira<br>(DEV)</sub>](https://github.com/weeesferreira) |
 | :---: | :---: | :---: | :---: |
