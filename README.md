@@ -13,7 +13,7 @@
   
    <h1 align="center"> Fatec Profº Jessen Vidal, SJC - Grupo_04 </h1>
  
-# Menu
+# Menu de Navegação
 
 * [Sobre](#Sobre)
 * [Tabela de conteudo](#tabela-de-conteudo)
@@ -49,15 +49,15 @@ Ligação do escopo e etapa bronze com banco
 
 ## Sprint 1
 
-## Burndown
+### Burndown
 
 ## Sprint 2
 
-## Burndown
+### Burndown
 
 ## Sprint 3
 
-## Burndown
+### Burndown
 
 
 <h1 align="Left">Backlog do projeto</h1>
