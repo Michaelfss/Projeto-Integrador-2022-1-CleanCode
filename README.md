@@ -16,12 +16,17 @@
 # Menu de Navegação
 
 * [Sobre](#Sobre)
+* [Cronograma](#Cronograma)
+* [Propostas](#Propostas)
+* [Sprint 1](#Sprint-1)
+* [Sprint 2](#Sprint-2)
+* [Sprint 3](#Sprint-3)
 * [Tabela de conteudo](#tabela-de-conteudo)
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
 * [Tecnologias](#Tecnologias)
-* [Autor](#autor)
+* [Integrantes](#Integrantes)
 
 
 # Sobre
@@ -52,7 +57,7 @@ Ligação do escopo e etapa bronze com banco
 ### Burndown
 
 ## Sprint 2
-
+### DER
 ### Burndown
 
 ## Sprint 3
@@ -85,7 +90,7 @@ Ligação do escopo e etapa bronze com banco
 https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
 
 
-# autor
+# Integrantes
                                                                       
 | [<img src="" width=115><br><sub>Michael Felipe<br>(Scrum Master)</sub>](https://github.com/Michaelfss)  | [<img src="https://user-images.githubusercontent.com/90359981/161455893-67940531-5d41-4ec2-81af-16be732d3e50.jpeg" width=115><br><sub>Bianca Tuchtler<br>(DEV)</sub>](https://github.com/biancatuchtler) |  [<img src="https://user-images.githubusercontent.com/90359981/161459311-b8526557-1ce4-4c58-b1ac-1f2d310c9886.jpeg" width=110 height="115"><br><sub>Augusto<br>(P.O)</sub>](https://github.com/MrZeroLeft) |  [<img src="https://user-images.githubusercontent.com/90359981/163747092-85a87b26-a1b5-4809-84c2-d3c09069e3d3.jpeg" width=90><br><sub>Wesley Ferreira<br>(DEV)</sub>](https://github.com/weeesferreira) |
 | :---: | :---: | :---: | :---: |
