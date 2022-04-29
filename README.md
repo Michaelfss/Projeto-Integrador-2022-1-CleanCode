@@ -21,11 +21,12 @@
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
-* [Tabela de conteudo](#tabela-de-conteudo)
+* [Sprints](#Sprints)
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
 * [Tecnologias](#Tecnologias)
+* [Como Baixar](#Como-Baixar)
 * [Integrantes](#Integrantes)
 
 
@@ -86,7 +87,7 @@ Ligação do escopo e etapa bronze com banco
 <p>Scene Builder</>
 
 
-# Documentação
+# Como Baixar
 https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
 
 
