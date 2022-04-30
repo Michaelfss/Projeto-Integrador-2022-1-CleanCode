@@ -89,10 +89,7 @@ Ligação do escopo e etapa bronze com banco
 
 # Como Baixar
 https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
-   
-<div id="voltarTopo">
-	<a href="#" id="subir">Topo</a>
-</div>
+
 
 # Integrantes
                                                                       
