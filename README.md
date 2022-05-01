@@ -42,11 +42,11 @@
 ## Sprint 1
 Tela de cadastro de clientes (Escopo)
 
-|Nível de impotância|Sprint 1||
-|:------------------|:-------|:-------|:-------|
-|Crucial            |Entender o Problema||
-|Importante|Criação da pagina no GitHub||
-|Relevante| Integração com banco de dados||	
+|Nível de impotância|Sprint 1|
+|:------------------|:-------|
+|Crucial            |Entender o Problema|
+|Importante         |Entregar a tela funcional|
+|Relevante          |Começar pesquisa sobre o banco de dados|
 
 ## Sprint 2
 Aprimorar a tela de cadastro de cliente de acordo com a validação
