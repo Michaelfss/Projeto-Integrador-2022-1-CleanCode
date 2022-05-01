@@ -41,14 +41,14 @@
 
 ## Sprint 1
 
-Tela de cadastro de clientes (Escopo)
+- Tela de cadastro de clientes (Escopo)
 
 
 ## Sprint 2
-Aprimorar a tela de cadastro de cliente de acordo com a validação
-Etapa Bronze
-Banco de dados
-Ligação do escopo e etapa bronze com banco
+- Aprimorar a tela de cadastro de cliente de acordo com a validação
+- Etapa Bronze
+- Banco de dados
+- Ligação do escopo e etapa bronze com banco
 
 
 ## Sprint 3
