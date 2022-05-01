@@ -41,6 +41,11 @@
 
 ## Sprint 1
 Tela de cadastro de clientes (Escopo)
+|Nível de impotância|Sprint 1||
+|:------------------|:-------|:-------|:-------|---------|
+|Crucial            |Entender o Problema||
+|Importante|Criação da pagina no GitHub||
+|Relevante| Integração com banco de dados||	
 
 ## Sprint 2
 Aprimorar a tela de cadastro de cliente de acordo com a validação
@@ -67,13 +72,6 @@ Ligação do escopo e etapa bronze com banco
 
 
 <h1 align="Left">Backlog do projeto</h1>
-
-
-|Nível de impotância|Sprint 1|Sprint 2|Sprint 3||
-|:------------------|:-------|:-------|:-------|---------|
-|Crucial            |Wireframe| | | |
-|Importante|Criação da pagina no GitHub| | ||
-|Relevante| Integração com banco de dados| |||	
 
 
 # 🛠️Tecnologias
