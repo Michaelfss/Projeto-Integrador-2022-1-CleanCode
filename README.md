@@ -54,6 +54,9 @@
 - Aprender do zero todas as tecnologias necessárias
 - Adaptação ao metodo Scrum
 
+### Complexidade
+10/10
+
 
 ## Sprint 2
 
@@ -68,6 +71,9 @@
 ### DER
 
 ### Burndown
+
+### Complexidade
+10/10
 
 
 ## Sprint 3
