@@ -41,8 +41,9 @@
 
 ## Sprint 1
 Tela de cadastro de clientes (Escopo)
+
 |Nível de impotância|Sprint 1||
-|:------------------|:-------|:-------|:-------|---------|
+|:------------------|:-------|:-------|:-------|
 |Crucial            |Entender o Problema||
 |Importante|Criação da pagina no GitHub||
 |Relevante| Integração com banco de dados||	
