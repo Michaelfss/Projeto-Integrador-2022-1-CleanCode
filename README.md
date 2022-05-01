@@ -76,6 +76,8 @@
 
 ### Burndown
 
+### Dificuldades
+
 ### Complexidade
 10/10
 
@@ -85,6 +87,8 @@
 ### DER
 
 ### Burndown
+
+### Dificuldades
 
 ### Complexidade
 
