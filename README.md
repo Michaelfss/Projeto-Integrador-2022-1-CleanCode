@@ -87,7 +87,7 @@
 ### Burndown
 
 
-# 🛠️Tecnologias Utilizadas
+# 🛠️Tecnologias
 
 <p>Eclispse</>
 <p>VSCode</>
