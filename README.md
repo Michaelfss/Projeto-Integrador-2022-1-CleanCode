@@ -41,7 +41,6 @@
 
 ## Sprint 1
 
-### Prometido
 Tela de cadastro de clientes (Escopo)
 
 
