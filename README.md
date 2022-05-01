@@ -104,9 +104,6 @@ Ligação do escopo e etapa bronze com banco
 ### Burndown
 
 
-<h1 align="Left">Backlog do projeto</h1>
-
-
 # 🛠️Tecnologias
 
 <p>Eclispse</>
