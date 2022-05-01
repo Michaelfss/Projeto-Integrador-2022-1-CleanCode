@@ -15,6 +15,7 @@
 # Menu de Navegação
 
 * [Sobre](#Sobre)
+* [Backlog](#Backlog)
 * [Cronograma](#Cronograma)
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
@@ -27,20 +28,21 @@
 # Sobre                                                                                                                                                        
 <p> Esse Projeto foi criado devido a um trabalho escolar onde nós, alunos do curso Banco de Dados 2º semestre da FATEC SJC, fomos desafiados a criar um aplicativo em java com o intuito de facilitar a entreda de dados no sistema da empresa DOM ROCK </p>
 
+# Backlog
+|Nível de impotância|Sprint 1|Sprint 2|Sprint 3|
+|:------------------|:-------|:-------|:-------|
+|Crucial            |-|-|-|
+|Importante         |-|-|-|
+|Relevante          |-|-|-|
+
 
 # Cronograma                                                                                                   
+
 
 # Sprint 1
 
 ### Proposta
 - Tela de cadastro de clientes (Escopo)
-
-### Backlog
-|Nível de impotância|Sprint 1|
-|:------------------|:-------|
-|Crucial            |Entender o Problema|
-|Importante         |Entregar a tela funcional|
-|Relevante          |Começar pesquisa sobre o banco de dados|
 
 ### Burndown
 ![BurndownSprint1](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/BurndownSprint1.png)
@@ -62,11 +64,6 @@
 - Ligação do escopo e etapa bronze com banco
 
 ### Backlog
-|Nível de impotância|Sprint 2|
-|:------------------|:-------|
-|Crucial            |Escopo e bronze funcionais|
-|Importante         |Ligação com o banco|
-|Relevante          |Testes e reparos|
 
 ### DER
 
@@ -74,13 +71,6 @@
 
 
 ## Sprint 3
-
-### Backlog
-|Nível de impotância|Sprint 3|
-|:------------------|:-------|
-|Crucial            ||
-|Importante         ||
-|Relevante          ||
 
 ### DER
 
