@@ -72,8 +72,6 @@
 - Fazer ligação do escopo com etapa bronze
 - Fazer ligação do escopo e etapa bronze com o banco de dados
 
-### Backlog
-
 ### DER
 
 ### Burndown
