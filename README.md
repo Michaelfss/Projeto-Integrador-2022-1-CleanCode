@@ -45,7 +45,7 @@
 - Tela de cadastro de clientes (Escopo)
 
 ### Burndown
-![BurndownSprint1](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/BurndownSprint1.png)
+
 
 ### Dificuldades
 - Grupo com só 4 pessoas
