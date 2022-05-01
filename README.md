@@ -30,7 +30,7 @@
 
 
 # Cronograma                                                                                                   
-
+![CronogramaAPI](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/CronogramaAPI.png)
 # Backlog
 |Nível de impotância|Sprint 1|Sprint 2|Sprint 3|
 |:------------------|:-------|:-------|:-------|
