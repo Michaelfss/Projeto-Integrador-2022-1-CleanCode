@@ -42,7 +42,9 @@
 # Sprint 1
 
 ### Proposta
-- Tela de cadastro de clientes (Escopo)
+- Criação wireframe do escopo
+- Desenvolvimento da interface do escopo
+- Criação dos .java relacionados ao escopo
 
 ### Burndown
 ![Burndown_Sprint1](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/Burndown_Sprint1.png)
@@ -61,10 +63,14 @@
 ## Sprint 2
 
 ### Proposta
-- Aprimorar a tela de cadastro de cliente de acordo com a validação
-- Etapa Bronze
-- Banco de dados
-- Ligação do escopo e etapa bronze com banco
+- Aprimorar o escopo de acordo com a validação
+- Criação wireframe da etapa bronze
+- Desenvolvimento da interface da etapa bronze
+- Criação dos .java relacionados a etapa bronze
+- Modelar o banco de dados
+- Criar o banco de dados
+- Fazer ligação do escopo com etapa bronze
+- Fazer ligação do escopo e etapa bronze com o banco de dados
 
 ### Backlog
 
