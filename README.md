@@ -40,19 +40,17 @@
 # Propostas
 
 ## Sprint 1
+
+### Prometido
 Tela de cadastro de clientes (Escopo)
 
-|Nível de impotância|Sprint 1|
-|:------------------|:-------|
-|Crucial            |Entender o Problema|
-|Importante         |Entregar a tela funcional|
-|Relevante          |Começar pesquisa sobre o banco de dados|
 
 ## Sprint 2
 Aprimorar a tela de cadastro de cliente de acordo com a validação
 Etapa Bronze
 Banco de dados
 Ligação do escopo e etapa bronze com banco
+
 
 ## Sprint 3
 
@@ -61,13 +59,47 @@ Ligação do escopo e etapa bronze com banco
 
 ## Sprint 1
 
+### Backlog
+|Nível de impotância|Sprint 1|
+|:------------------|:-------|
+|Crucial            |Entender o Problema|
+|Importante         |Entregar a tela funcional|
+|Relevante          |Começar pesquisa sobre o banco de dados|
+
 ### Burndown
+
+### Dificuldades
+- Grupo com só 4 pessoas
+- Organização
+- Comunicação
+- Aprender do zero todas as tecnologias necessárias
+- Adaptação ao metodo Scrum
+
 
 ## Sprint 2
+
+### Backlog
+|Nível de impotância|Sprint 2|
+|:------------------|:-------|
+|Crucial            |Escopo e bronze funcionais|
+|Importante         |Ligação com o banco|
+|Relevante          |Testes e reparos|
+
 ### DER
+
 ### Burndown
 
+
 ## Sprint 3
+
+### Backlog
+|Nível de impotância|Sprint 3|
+|:------------------|:-------|
+|Crucial            ||
+|Importante         ||
+|Relevante          ||
+
+### DER
 
 ### Burndown
 
