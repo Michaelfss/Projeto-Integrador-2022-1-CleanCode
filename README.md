@@ -8,7 +8,6 @@
 </p>
 
 
-
   <h1 align="center">CleanCode</h1>
   
    <h1 align="center"> Fatec Profº Jessen Vidal, SJC - Grupo_04 </h1>
@@ -36,27 +35,10 @@
 
 # Cronograma                                                                                                   
 
+# Sprint 1
 
-# Propostas
-
-## Sprint 1
-
+### Proposta
 - Tela de cadastro de clientes (Escopo)
-
-
-## Sprint 2
-- Aprimorar a tela de cadastro de cliente de acordo com a validação
-- Etapa Bronze
-- Banco de dados
-- Ligação do escopo e etapa bronze com banco
-
-
-## Sprint 3
-
-
-# Sprints
-
-## Sprint 1
 
 ### Backlog
 |Nível de impotância|Sprint 1|
@@ -77,6 +59,12 @@
 
 
 ## Sprint 2
+
+### Proposta
+- Aprimorar a tela de cadastro de cliente de acordo com a validação
+- Etapa Bronze
+- Banco de dados
+- Ligação do escopo e etapa bronze com banco
 
 ### Backlog
 |Nível de impotância|Sprint 2|
