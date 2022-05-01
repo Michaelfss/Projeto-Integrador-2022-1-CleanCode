@@ -19,7 +19,7 @@
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
-* [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
+* [Tecnologias](#Tecnologias)
 * [Como Baixar](#Como-Baixar)
 * [Integrantes](#Integrantes)
 
