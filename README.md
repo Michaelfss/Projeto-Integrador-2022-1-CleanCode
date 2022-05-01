@@ -16,15 +16,10 @@
 
 * [Sobre](#Sobre)
 * [Cronograma](#Cronograma)
-* [Propostas](#Propostas)
 * [Sprint 1](#Sprint-1)
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
-* [Sprints](#Sprints)
-* [Sprint 1](#Sprint-1)
-* [Sprint 2](#Sprint-2)
-* [Sprint 3](#Sprint-3)
-* [Tecnologias](#Tecnologias)
+* [Tecnologias Utilizadas](#Tecnologias Utilizadas)
 * [Como Baixar](#Como-Baixar)
 * [Integrantes](#Integrantes)
 
@@ -92,7 +87,7 @@
 ### Burndown
 
 
-# 🛠️Tecnologias
+# 🛠️Tecnologias Utilizadas
 
 <p>Eclispse</>
 <p>VSCode</>
