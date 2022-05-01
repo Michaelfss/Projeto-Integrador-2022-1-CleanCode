@@ -26,7 +26,7 @@
 
 
 # Sobre                                                                                                                                                        
-<p> Esse Projeto foi criado devido a um trabalho escolar onde nós, alunos do curso Banco de Dados 2º semestre da FATEC SJC, fomos desafiados a criar um aplicativo em java com o intuito de facilitar a entreda de dados no sistema da empresa DOM ROCK </p>
+<p> Esse Projeto foi criado devido a um trabalho escolar onde nós, alunos do curso Banco de Dados 2º semestre da FATEC SJC, fomos desafiados a criar um aplicativo em java com o intuito de facilitar a entrada de dados no sistema da empresa DOM ROCK </p>
 
 
 # Cronograma                                                                                                   
