@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TabPane layoutX="-3.0" prefHeight="571.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Escopo">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="571.0" prefWidth="813.0" style="-fx-background-color: silver;">
+                     <children>
+                        <GridPane layoutX="14.0" layoutY="20.0" prefHeight="90.0" prefWidth="308.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="65.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="243.0" minWidth="10.0" prefWidth="243.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Cliente" />
+                              <Label text="CNPJ" GridPane.rowIndex="1" />
+                              <Label text="Setor" GridPane.rowIndex="2" />
+                              <TextField GridPane.columnIndex="1" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                              </TextField>
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="14.0" layoutY="162.0" prefHeight="120.0" prefWidth="244.0" AnchorPane.leftAnchor="15.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="150.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="10.0" prefWidth="94.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="5.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Produto / Operations" />
+                              <Label text="Dados Mínimos" GridPane.columnIndex="1" />
+                              <CheckBox mnemonicParsing="false" text="Nxt. Operations" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Nxt. Matching e Risk" GridPane.rowIndex="3" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="15.0" layoutY="309.0" prefHeight="180.0" prefWidth="247.0" AnchorPane.leftAnchor="15.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.0" minWidth="10.0" prefWidth="148.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="96.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Pricing" GridPane.rowIndex="5" />
+                              <CheckBox mnemonicParsing="false" text="Sales &amp; Distribution" GridPane.rowIndex="4" />
+                              <CheckBox mnemonicParsing="false" text="Marketing &amp; Planning" GridPane.rowIndex="3" />
+                              <CheckBox mnemonicParsing="false" text="Vox" GridPane.rowIndex="2" />
+                              <Label text="Produto / Demand" />
+                              <Label text="Dados Mínimos" GridPane.columnIndex="1" />
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="373.0" layoutY="14.0" AnchorPane.topAnchor="14.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="CORE" textAlignment="JUSTIFY" />
+                              <CheckBox mnemonicParsing="false" text="Web App" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="API Gateway" GridPane.rowIndex="3" />
+                              <CheckBox mnemonicParsing="false" text="Filas" GridPane.rowIndex="4" />
+                              <CheckBox mnemonicParsing="false" text="Step Function" GridPane.rowIndex="5" />
+                              <CheckBox mnemonicParsing="false" text="Lambda" GridPane.rowIndex="6" />
+                              <CheckBox mnemonicParsing="false" text="Quicksight" GridPane.rowIndex="7" />
+                              <CheckBox mnemonicParsing="false" text="Fargete" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Conteiners" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <CheckBox mnemonicParsing="false" text="S3" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <CheckBox mnemonicParsing="false" text="Mongodb" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <CheckBox mnemonicParsing="false" text="Parquet" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <CheckBox mnemonicParsing="false" text="Cloudwatch" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="573.0" layoutY="14.0" prefHeight="180.0" prefWidth="208.0" AnchorPane.rightAnchor="14.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Funcionalidade" textAlignment="JUSTIFY" />
+                              <CheckBox mnemonicParsing="false" text="Paineis de Solução" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Gerador de Relatórios" GridPane.rowIndex="3" />
+                              <CheckBox mnemonicParsing="false" text="Buscar (NLP)" GridPane.rowIndex="4" />
+                              <CheckBox mnemonicParsing="false" text="Data Lake Generator" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                        <GridPane layoutX="300.0" layoutY="282.0" prefHeight="183.0" prefWidth="480.0" AnchorPane.bottomAnchor="66.0" AnchorPane.rightAnchor="14.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="115.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="5.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="115.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.0" minWidth="10.0" prefWidth="5.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="115.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="65.0" minHeight="7.0" prefHeight="41.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="133.0" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="171.0" minHeight="10.0" prefHeight="131.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Entregáveis Mínimos" />
+                              <Label text="Entregáveis Possíveis" GridPane.columnIndex="2" />
+                              <Label text="Objetivo do Negócio" GridPane.columnIndex="4" />
+                              <TextArea prefHeight="160.0" prefWidth="138.0" GridPane.rowIndex="2" />
+                              <TextArea prefHeight="157.0" prefWidth="138.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Bronze">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;" />
+            </content>
+          </Tab>
+            <Tab text="Silver">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;" />
+              </content>
+            </Tab>
+            <Tab text="Gold">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
