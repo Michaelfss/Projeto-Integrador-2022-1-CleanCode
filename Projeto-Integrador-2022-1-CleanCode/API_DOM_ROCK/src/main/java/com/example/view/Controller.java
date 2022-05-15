@@ -14,7 +14,6 @@ import javax.swing.JOptionPane;
 
 import dto.*;
 
-
 public class Controller {
 
     @FXML
@@ -48,7 +47,7 @@ public class Controller {
     private CheckBox checkBoxMongodbEscopo;
 
     @FXML
-    private CheckBox checkBoxPaineisSolucoesEscopo;
+    private CheckBox checkBoxPaineisSolucaoEscopo;
 
     @FXML
     private CheckBox checkBoxParquetEscopo;
@@ -69,9 +68,6 @@ public class Controller {
     private RadioButton radioButtonApiBronze;
 
     @FXML
-    private RadioButton radioButtonDemandSalesDistributionEscopo;
-
-    @FXML
     private RadioButton radioButtonMarketingPlanningEscopo;
 
     @FXML
@@ -82,6 +78,9 @@ public class Controller {
 
     @FXML
     private RadioButton radioButtonPricingEscopo;
+
+    @FXML
+    private RadioButton radioButtonSalesDistributionEscopo;
 
     @FXML
     private RadioButton radioButtonSftpBronze;
@@ -99,12 +98,6 @@ public class Controller {
     private Tab tabEscopo;
 
     @FXML
-    private Tab tabGold;
-
-    @FXML
-    private Tab tabSilver;
-
-    @FXML
     private TextArea textAreaDadosMinimosEscopo;
 
     @FXML
@@ -114,7 +107,7 @@ public class Controller {
     private TextArea textAreaEntregaveisPossiveisEscopo;
 
     @FXML
-    private TextArea textAreaObjetivoDoNegocioEscopo;
+    private TextArea textAreaObjetivoNegocioEscopo;
 
     @FXML
     private TextArea textAreaSistemasBronze;
@@ -143,19 +136,60 @@ public class Controller {
     @FXML
     private TextField textFieldSetorEscopo;
 
-    @FXML
-    void bronzeParaSilver(ActionEvent event) {
-
-    }
 
     @FXML
     void cadastrarNovoClienteEscopo(ActionEvent event) {
+        textFieldClienteEscopo.setText("");
+        textFieldCnpjEscopo.setText("");
+        textFieldRazaoSocialEscopo.setText("");
+        textFieldSetorEscopo.setText("");
+        textAreaEntregaveisMinimoEscopo.setText("");
+        textAreaObjetivoNegocioEscopo.setText("");
+        textAreaEntregaveisPossiveisEscopo.setText("");
+        textAreaDadosMinimosEscopo.setText("");
 
+        radioButtonVoxEscopo.setSelected(false);
+        radioButtonMarketingPlanningEscopo.setSelected(false);
+        radioButtonSalesDistributionEscopo.setSelected(false);
+        radioButtonPricingEscopo.setSelected(false);
+        radioButtonOptimizationEscopo.setSelected(false);
+        radioButtonMatchingRiskEscopo.setSelected(false);
+
+        checkBoxWebAppEscopo.setSelected(false);
+        checkBoxApiGatewayEscopo.setSelected(false);
+        checkBoxFilasEscopo.setSelected(false);
+        checkBoxStepFunctionEscopo.setSelected(false);
+        checkBoxLambdaEscopo.setSelected(false);
+        checkBoxQuicksightEscopo.setSelected(false);
+        checkBoxFargateEscopo.setSelected(false);
+        checkBoxConteinersEscopo.setSelected(false);
+        checkBoxS3Escopo.setSelected(false);
+        checkBoxMongodbEscopo.setSelected(false);
+        checkBoxParquetEscopo.setSelected(false);
+        checkBoxCloudwatchEscopo.setSelected(false);
     }
 
     @FXML
     void cadastrarNovoProdutoEscopo(ActionEvent event) {
+        radioButtonVoxEscopo.setSelected(false);
+        radioButtonMarketingPlanningEscopo.setSelected(false);
+        radioButtonSalesDistributionEscopo.setSelected(false);
+        radioButtonPricingEscopo.setSelected(false);
+        radioButtonOptimizationEscopo.setSelected(false);
+        radioButtonMatchingRiskEscopo.setSelected(false);
 
+        checkBoxWebAppEscopo.setSelected(false);
+        checkBoxApiGatewayEscopo.setSelected(false);
+        checkBoxFilasEscopo.setSelected(false);
+        checkBoxStepFunctionEscopo.setSelected(false);
+        checkBoxLambdaEscopo.setSelected(false);
+        checkBoxQuicksightEscopo.setSelected(false);
+        checkBoxFargateEscopo.setSelected(false);
+        checkBoxConteinersEscopo.setSelected(false);
+        checkBoxS3Escopo.setSelected(false);
+        checkBoxMongodbEscopo.setSelected(false);
+        checkBoxParquetEscopo.setSelected(false);
+        checkBoxCloudwatchEscopo.setSelected(false);
     }
 
     @FXML
@@ -164,8 +198,26 @@ public class Controller {
     }
 
     @FXML
-    void condirmarCadastroBronze(ActionEvent event) {
+    void confirmarCadastroBronze(ActionEvent event) {
+        String api = this.radioButtonApiBronze.getText();
+        String sftp = this.radioButtonSftpBronze.getText();
+        String upload = this.radioButtonUploadBronze.getText();
+        String formato = this.textFieldFormatoBronze.getText();
+        String volumeDados = this.textAreaVolumeDadosBronze.getText();
+        String frequenciaDados = this.textFieldFrequenciaDadosBronze.getText();
+        String sistemas = this.textAreaSistemasBronze.getText();
 
+        OrigemDado novoCadastroOrigemDado = new OrigemDado(api, sftp, upload, formato, volumeDados,
+        frequenciaDados, sistemas);
+
+        ArrayList<String> OrigemDado = new ArrayList<String>();
+        OrigemDado.add(novoCadastroOrigemDado.getApi());
+        OrigemDado.add(novoCadastroOrigemDado.getSftp());
+        OrigemDado.add(novoCadastroOrigemDado.getUpload());
+        OrigemDado.add(novoCadastroOrigemDado.getFormato());
+        OrigemDado.add(novoCadastroOrigemDado.getVolumeDados());
+        OrigemDado.add(novoCadastroOrigemDado.getFrequenciaDados());
+        OrigemDado.add(novoCadastroOrigemDado.getSistemas());
     }
 
     @FXML
@@ -175,35 +227,35 @@ public class Controller {
         String razaoSocial = this.textFieldRazaoSocialEscopo.getText();
         String setor = this.textFieldSetorEscopo.getText();
         String entregaveisMinimos = this.textAreaEntregaveisMinimoEscopo.getText();
-        String objetivoNegocio = this.textAreaObjetivoDoNegocioEscopo.getText();
+        String objetivoNegocio = this.textAreaObjetivoNegocioEscopo.getText();
         String entregaveisPossiveis = this.textAreaEntregaveisPossiveisEscopo.getText();
 
         String nxtDemandVox = this.radioButtonVoxEscopo.getText();
         String nxtDemandMarketingPlanning = this.radioButtonMarketingPlanningEscopo.getText();
-        String nxtDemandSalesDistribution = this.radioButtonDemandSalesDistributionEscopo.getText();
-        String nxtDemandPricing = this.radioButtonDemandSalesDistributionEscopo.getText();
-        String nxtDemandOperationsOptimization = this.radioButtonDemandSalesDistributionEscopo.getText();
-        String nxtDemandOperationsMatchingRisk = this.radioButtonDemandSalesDistributionEscopo.getText();
-        String dadosMinimos = this.radioButtonDemandSalesDistributionEscopo.getText();
+        String nxtDemandSalesDistribution = this.radioButtonSalesDistributionEscopo.getText();
+        String nxtDemandPricing = this.radioButtonPricingEscopo.getText();
+        String nxtDemandOperationsOptimization = this.radioButtonOptimizationEscopo.getText();
+        String nxtDemandOperationsMatchingRisk = this.radioButtonMatchingRiskEscopo.getText();
+        String dadosMinimos = this.textAreaDadosMinimosEscopo.getText();
 
         String webApp = this.checkBoxWebAppEscopo.getText();
         String apiGateway = this.checkBoxApiGatewayEscopo.getText();
-	    String filas = this.checkBoxFilasEscopo.getText();
-	    String stepFunction = this.checkBoxStepFunctionEscopo.getText();
-	    String lambda = this.checkBoxLambdaEscopo.getText();
-	    String quicksight = this.checkBoxQuicksightEscopo.getText();
-	    String fargate = this.checkBoxFargateEscopo.getText();
-	    String conteiners = this.checkBoxConteinersEscopo.getText();
-	    String s3 = this.checkBoxS3Escopo.getText();
-	    String mongodb = this.checkBoxMongodbEscopo.getText();
-	    String parquet = this.checkBoxParquetEscopo.getText();
-	    String cloudwatch = this.checkBoxCloudwatchEscopo.getText();
+        String filas = this.checkBoxFilasEscopo.getText();
+        String stepFunction = this.checkBoxStepFunctionEscopo.getText();
+        String lambda = this.checkBoxLambdaEscopo.getText();
+        String quicksight = this.checkBoxQuicksightEscopo.getText();
+        String fargate = this.checkBoxFargateEscopo.getText();
+        String conteiners = this.checkBoxConteinersEscopo.getText();
+        String s3 = this.checkBoxS3Escopo.getText();
+        String mongodb = this.checkBoxMongodbEscopo.getText();
+        String parquet = this.checkBoxParquetEscopo.getText();
+        String cloudwatch = this.checkBoxCloudwatchEscopo.getText();
 
-        String paineisSolucoes = this.checkBoxPaineisSolucoesEscopo.getText();
-	    String geradorRelatorios = this.checkBoxGeradorRelatoriosEscopo.getText();
-	    String buscarNLP = this.checkBoxBuscarNlpEscopo.getText();
-	    String dataLakeGenerator = this.checkBoxDataLakeGeneratorEscopo.getText();
-        
+        String paineisSolucoes = this.checkBoxPaineisSolucaoEscopo.getText();
+        String geradorRelatorios = this.checkBoxGeradorRelatoriosEscopo.getText();
+        String buscarNLP = this.checkBoxBuscarNlpEscopo.getText();
+        String dataLakeGenerator = this.checkBoxDataLakeGeneratorEscopo.getText();
+
 
         Cliente novoCadastroCliente = new Cliente(cliente, cnpj, razaoSocial, setor, entregaveisMinimos,
         entregaveisPossiveis, objetivoNegocio);
@@ -227,16 +279,38 @@ public class Controller {
         Cliente.add(novoCadastroCliente.getEntregaveisPossiveis());
 
         ArrayList<String> Produtos = new ArrayList<String>();
-        Produtos.add(novoCadastroProdutos.getNxtDemandVox());
-        Produtos.add(novoCadastroProdutos.getNxtDemandMarketingPlanning());
-        Produtos.add(novoCadastroProdutos.getNxtDemandSalesDistribution());
-        Produtos.add(novoCadastroProdutos.getNxtDemandPricing());
-        Produtos.add(novoCadastroProdutos.getNxtDemandOperationsOptimization());
-        Produtos.add(novoCadastroProdutos.getNxtDemandOperationsMatchingRisk());
+        if(radioButtonVoxEscopo.isSelected()){
+            Produtos.add(novoCadastroProdutos.getNxtDemandVox());
+        }
+
+        if(radioButtonMarketingPlanningEscopo.isSelected()) {
+            Produtos.add(novoCadastroProdutos.getNxtDemandMarketingPlanning());
+        }
+
+        if(radioButtonSalesDistributionEscopo.isSelected()) {
+            Produtos.add(novoCadastroProdutos.getNxtDemandSalesDistribution());
+        }
+
+        if(radioButtonPricingEscopo.isSelected()) {
+            Produtos.add(novoCadastroProdutos.getNxtDemandPricing());
+        }
+
+        if(radioButtonOptimizationEscopo.isSelected()) {
+            Produtos.add(novoCadastroProdutos.getNxtDemandOperationsOptimization());
+        }
+
+        if(radioButtonMatchingRiskEscopo.isSelected()) {
+            Produtos.add(novoCadastroProdutos.getNxtDemandOperationsMatchingRisk());
+        }
+    
         Produtos.add(novoCadastroProdutos.getDadosMinimos());
 
+
         ArrayList<String> Core = new ArrayList<String>();
-        Core.add(novoCadastroCore.getWebApp());
+        if(checkBoxWebAppEscopo.isSelected()) {
+            Core.add(novoCadastroCore.getWebApp());
+        }
+        
         Core.add(novoCadastroCore.getApiGateway());
         Core.add(novoCadastroCore.getFilas());
         Core.add(novoCadastroCore.getStepFunction());
@@ -254,17 +328,12 @@ public class Controller {
         Funcionalidade.add(novoCadastroFuncionalidade.getGeradorRelatorios());
         Funcionalidade.add(novoCadastroFuncionalidade.getBuscarNLP());
         Funcionalidade.add(novoCadastroFuncionalidade.getDataLakeGenerator());
-        
+
 
         JOptionPane.showConfirmDialog(null, Cliente);
         JOptionPane.showConfirmDialog(null, Produtos);
         JOptionPane.showConfirmDialog(null, Core);
         JOptionPane.showConfirmDialog(null, Funcionalidade);
-    }
-
-    @FXML
-    void escopoParaBronze(ActionEvent event) {
-
     }
 
     @FXML

@@ -21,7 +21,7 @@
         <tabs>
           <Tab fx:id="tabEscopo" text="Escopo">
             <content>
-              <AnchorPane prefHeight="530.0" prefWidth="810.0" style="-fx-background-color: silver;">
+              <AnchorPane prefHeight="530.0" prefWidth="810.0" style="-fx-background-color: Silver;">
                      <children>
                         <GridPane layoutX="12.0" layoutY="23.0" prefHeight="136.0" prefWidth="323.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
                           <columnConstraints>
@@ -73,10 +73,10 @@
                               <CheckBox fx:id="checkBoxStepFunctionEscopo" mnemonicParsing="false" text="Step Function" GridPane.rowIndex="5" />
                               <CheckBox fx:id="checkBoxLambdaEscopo" mnemonicParsing="false" text="Lambda" GridPane.rowIndex="6" />
                               <CheckBox fx:id="checkBoxQuicksightEscopo" mnemonicParsing="false" text="Quicksight" GridPane.rowIndex="7" />
-                              <CheckBox fx:id="checkBoxFargeteEscopo" mnemonicParsing="false" text="Fargate" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <CheckBox fx:id="checkBoxFargateEscopo" mnemonicParsing="false" text="Fargate" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                               <CheckBox fx:id="checkBoxConteinersEscopo" mnemonicParsing="false" text="Conteiners" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                               <CheckBox fx:id="checkBoxS3Escopo" mnemonicParsing="false" text="S3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                              <CheckBox fx:id="checkBoxMongobdEscopo" mnemonicParsing="false" text="Mongodb" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                              <CheckBox fx:id="checkBoxMongodbEscopo" mnemonicParsing="false" text="Monogodb" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                               <CheckBox fx:id="checkBoxParquetEscopo" mnemonicParsing="false" text="Parquet" GridPane.columnIndex="2" GridPane.rowIndex="6" />
                               <CheckBox fx:id="checkBoxCloudwatchEscopo" mnemonicParsing="false" text="Cloudwatch" GridPane.columnIndex="2" GridPane.rowIndex="7" />
                            </children>
@@ -95,7 +95,7 @@
                           </rowConstraints>
                            <children>
                               <Label text="Funcionalidade" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
-                              <CheckBox fx:id="checkBoxPaineisSolucoesEscopo" mnemonicParsing="false" text="Paineis de Solução" GridPane.rowIndex="2" />
+                              <CheckBox fx:id="checkBoxPaineisSolucaoEscopo" mnemonicParsing="false" text="Paineis de Solução" GridPane.rowIndex="2" />
                               <CheckBox fx:id="checkBoxGeradorRelatoriosEscopo" mnemonicParsing="false" text="Gerador de Relatórios" GridPane.rowIndex="3" />
                               <CheckBox fx:id="checkBoxBuscarNlpEscopo" mnemonicParsing="false" text="Buscar (NLP)" GridPane.rowIndex="4" />
                               <CheckBox fx:id="checkBoxDataLakeGeneratorEscopo" mnemonicParsing="false" text="Data Lake Generator" GridPane.rowIndex="5" />
@@ -117,7 +117,7 @@
                               <Label text="Nxt.Demand" />
                               <RadioButton fx:id="radioButtonVoxEscopo" mnemonicParsing="false" text="Vox" GridPane.rowIndex="1" />
                               <RadioButton fx:id="radioButtonMarketingPlanningEscopo" mnemonicParsing="false" text="Marketing &amp; Planning" GridPane.rowIndex="2" />
-                              <RadioButton fx:id="radioButtonDemandSalesDistributionEscopo" mnemonicParsing="false" text="Sales &amp; Distribution" GridPane.rowIndex="3" />
+                              <RadioButton fx:id="radioButtonSalesDistributionEscopo" mnemonicParsing="false" text="Sales &amp; Distribution" GridPane.rowIndex="3" />
                               <RadioButton fx:id="radioButtonPricingEscopo" mnemonicParsing="false" text="Pricing" GridPane.rowIndex="4" />
                               <Label text="Nxt.Operations" GridPane.columnIndex="1" />
                               <RadioButton fx:id="radioButtonOptimizationEscopo" mnemonicParsing="false" text="Optimization" GridPane.columnIndex="1" GridPane.rowIndex="1" />
@@ -145,7 +145,7 @@
                               <TextArea fx:id="textAreaEntregaveisPossiveisEscopo" GridPane.columnIndex="4" GridPane.rowIndex="1" />
                               <TextArea fx:id="textAreaDadosMinimosEscopo" prefHeight="130.0" prefWidth="171.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
                               <Label text="Dados Mínimos" GridPane.columnIndex="6" />
-                              <TextArea fx:id="textAreaObjetivoDoNegocioEscopo" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextArea fx:id="textAreaObjetivoNegocioEscopo" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                               <Label text="Entregáveis Possíveis" GridPane.columnIndex="4" />
                            </children>
                         </GridPane>
@@ -158,14 +158,12 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Button mnemonicParsing="false" onAction="#cadastrarNovoProdutoEscopo" prefHeight="25.0" prefWidth="127.0" text="Novo Produto" />
-                              <Button mnemonicParsing="false" onAction="#cadastrarNovoClienteEscopo" prefHeight="25.0" prefWidth="128.0" text="Novo Cliente" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" onAction="#cadastrarNovoProdutoEscopo" prefHeight="25.0" prefWidth="127.0" text="Limpar Produto" />
+                              <Button mnemonicParsing="false" onAction="#cadastrarNovoClienteEscopo" prefHeight="25.0" prefWidth="128.0" text="Limpar" GridPane.rowIndex="1" />
                               <Button mnemonicParsing="false" onAction="#confirmarCadastroEscopo" prefHeight="25.0" prefWidth="124.0" text="Cadastrar" GridPane.rowIndex="2" />
                               <Button mnemonicParsing="false" onAction="#visualizarCadastrosEscopo" text="Visualizar Cadastros" GridPane.rowIndex="3" />
-                              <Button mnemonicParsing="false" onAction="#escopoParaBronze" prefHeight="25.0" prefWidth="126.0" text="Proxima Etapa" GridPane.rowIndex="4" />
                            </children>
                         </GridPane>
                      </children>
@@ -254,14 +252,12 @@
                           <rowConstraints>
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
                               <Button mnemonicParsing="false" onAction="#selecionarOutroClienteBronze" prefHeight="25.0" prefWidth="139.0" text="Outro Cliente" />
                               <Button mnemonicParsing="false" onAction="#cadastrarOutroDadoBronze" prefHeight="25.0" prefWidth="122.0" text="Outro Dado" GridPane.columnIndex="2" />
-                              <Button mnemonicParsing="false" onAction="#condirmarCadastroBronze" prefHeight="25.0" prefWidth="125.0" text="Cadastrar" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" onAction="#confirmarCadastroBronze" prefHeight="25.0" prefWidth="125.0" text="Cadastrar" GridPane.rowIndex="1" />
                               <Button mnemonicParsing="false" onAction="#visualizarCadastrosBronze" text="Visualizar Cadastros" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                              <Button mnemonicParsing="false" onAction="#bronzeParaSilver" prefHeight="25.0" prefWidth="134.0" text="Proxima Etapa" GridPane.rowIndex="2" />
                            </children>
                         </GridPane>
                         <GridPane layoutX="46.0" layoutY="14.0" minHeight="30.0" prefWidth="300.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
@@ -281,16 +277,6 @@
                   </AnchorPane>
             </content>
           </Tab>
-            <Tab fx:id="tabSilver" text="Silver">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;" />
-              </content>
-            </Tab>
-            <Tab fx:id="tabGold" text="Gold">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: silver;" />
-              </content>
-            </Tab>
         </tabs>
       </TabPane>
    </children>
