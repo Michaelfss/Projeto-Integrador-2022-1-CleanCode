@@ -73,6 +73,7 @@
 - Fazer ligação do escopo e etapa bronze com o banco de dados
 
 ### DER
+![DER_Api2Semestre](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/DER_Api2Semestre.png)
 
 ### Burndown
 
