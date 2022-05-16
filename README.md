@@ -31,12 +31,13 @@
 
 # Cronograma                                                                                                   
 ![CronogramaAPI](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/CronogramaAPI.png)
+
+
 # Backlog
-|Nível de impotância|Sprint 1|Sprint 2|Sprint 3|
-|:------------------|:-------|:-------|:-------|
-|Crucial            |-|-|-|
-|Importante         |-|-|-|
-|Relevante          |-|-|-|
+|Crucial|Importante|Relevante|
+|:-------|:-------|:-------|
+|Requisitos Funcionais|Requisitos Não Funcionais|Polimento|
+|Estabelecer boa Comunicação com o Cliente|Criar Plano de Ação|Revisão do Projeto|
 
 
 # Sprint 1
@@ -76,14 +77,28 @@
 ![DER_Api2Semestre](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/DER_Api2Semestre.png)
 
 ### Burndown
+![BurndownSprint2](https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Imagens/BurndownSprint2.png)
 
 ### Dificuldades
+- Numero de mão de obra
+- Criação do Banco
+- Implementação do Banco
 
 ### Complexidade
 10/10
 
 
 ## Sprint 3
+
+### Proposta
+- Finalizar conexão com banco
+- Criação wireframe da etapa silver
+- Desenvolvimento da interface da etapa silver
+- Criação dos .java relacionados a etapa silver
+- Desenvolvimento da interface da etapa gold
+- Criação dos .java relacionados a etapa gold
+- Modelar o banco de dados de acordo com etapa implementadas
+
 
 ### DER
 
@@ -98,15 +113,13 @@
 
 <p>Eclispse</>
 <p>VSCode</>
+<p>Git</>
 <p>GitHub</>
 <p>MySQL</>
 <p>Trello</>
 <p>Java</>
 <p>Scene Builder</>
-
-
-# Como Baixar
-https://github.com/Michaelfss/Projeto-Integrador-2022-1-CleanCode/blob/main/Documenta%C3%A7%C3%A3o%20Cliente.pdf
+<p>MySQL Workbench</>
 
 
 # Integrantes
