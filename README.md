@@ -21,7 +21,6 @@
 * [Sprint 2](#Sprint-2)
 * [Sprint 3](#Sprint-3)
 * [Tecnologias](#Tecnologias)
-* [Como Baixar](#Como-Baixar)
 * [Integrantes](#Integrantes)
 
 
